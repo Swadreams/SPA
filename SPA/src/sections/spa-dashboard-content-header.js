@@ -17,7 +17,7 @@ export class DashboardHeader extends Component {
                 <Text style={styles.spaBadge}> {this.props.classCount} </Text>
                 <View style={styles.spaRow}> 
                     <Icon name='home' style={styles.spaItem} /> 
-                    <Text style={styles.spaItem}> {lang.en.classes}  </Text>
+                    <Text style={styles.spaItem}> {lang.classes}  </Text>
                 </View>
                 </Col>
 
@@ -25,7 +25,7 @@ export class DashboardHeader extends Component {
                     <Text style={styles.spaBadge}> {this.props.studentsCount} </Text>                                    
                     <View style={styles.spaRow}> 
                         <Icon name='people' style={styles.spaItem} /> 
-                        <Text style={styles.spaItem}> Students  </Text>
+                        <Text style={styles.spaItem}> {lang.students}  </Text>
                     </View>
                 </Col>
           </Grid>

@@ -1,6 +1,6 @@
-export default {
-    en: {
+const en = {
         classes: 'Clasess',
         students: 'Students'
-    }
 }
+
+export default lang = en;

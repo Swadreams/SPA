@@ -15,7 +15,7 @@ export default class LayoutExample extends Component {
   render() {
     return (
       <Content>
-        <View style={styles.container}>                               
+        <View>
           <DashboardHeader style={{height: 50, flex: 1}} classCount={20} studentsCount={40} /> 
           <DashboardMainCard />
           <Text style={styles1.h1}> H1 Styling Text</Text>
