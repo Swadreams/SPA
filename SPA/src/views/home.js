@@ -11,12 +11,23 @@ export default class LayoutExample extends Component {
   static navigationOptions = {
       title: 'Dashboard'
   }
+  
+  constructor() {
+    super();
+    const cards = [
+      {icon: ''}
+    ]
+  }
+
   render() {
     return (
       <Content>
         <View>
-          <DashboardHeader style={{height: 50, flex: 1}} classCount={20} studentsCount={40} /> 
-          <DashboardMainCard icon='people' label="First Link" bgColor="red"  subLabel="Click On This Link"/>
+          <DashboardHeader classCount={20} studentsCount={40} /> 
+          <DashboardMainCard icon='edit' 
+                             label="First Link" 
+                             bgColor="red"  
+                             subLabel="Click On This Link"/>
           <StyleGuide />
         </View>   
       </Content>   

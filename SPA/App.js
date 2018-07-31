@@ -24,6 +24,7 @@ export default class App extends React.Component {
     await Expo.Font.loadAsync({
       'Roboto': require('./Fonts/Roboto.ttf'),
       'Roboto_medium': require('./Fonts/Roboto_medium.ttf'),        
+      'FontAwesome': require('./Fonts/FontAwesome.ttf'),        
       'Ionicons': require('@expo/vector-icons/fonts/Ionicons.ttf'),
     });
     this.setState({ readyFlag: true });
