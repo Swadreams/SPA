@@ -11,6 +11,10 @@ export class DashboardMainCard extends Component {
         super(props);
     }
 
+    clicked() {
+        console.log('I am clicked.')
+    }
+
     render() {
         return (
             <Card>
@@ -22,7 +26,7 @@ export class DashboardMainCard extends Component {
                             </View>                            
                         </Col>
                         <Col>                         
-                            <Text style={style1.dashboardCardMainText}> {this.props.label}  </Text>
+                            <Text style={style1.dashboardCardMainText} onPress={this.clicked}> {this.props.label}  </Text>
                             <Text style={[spaStyles.Link_Style, spaStyles.Align_Right]}> {this.props.subLabel}  </Text>
                         </Col>
                     </View>

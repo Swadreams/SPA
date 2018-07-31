@@ -9,7 +9,9 @@ import { Col, Row, Grid } from 'react-native-easy-grid';
 import lang from '../translations/locale';
 export default class LayoutExample extends Component {
   static navigationOptions = {
-      title: 'Dashboard'
+      title: 'Dashboard',
+      //headerStyle: { backgroundColor: 'white' },
+      //headerTitleStyle: { color: 'white' },
   }
   
   constructor() {
