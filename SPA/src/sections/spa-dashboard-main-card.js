@@ -16,7 +16,7 @@ export class DashboardMainCard extends Component {
             <Card>
                 <CardItem>
                     <View style={styles.spaRow}>
-                        <Col>
+                        <Col style={{ width: 40 }}>
                             <View style={[style1.dashboardCardIconBox, {backgroundColor: `${this.props.bgColor}`}]}>
                                 <FontAwesome style={style1.dashboardCardIcon}>{Icons[this.props.icon]}</FontAwesome>
                             </View>                            
@@ -32,7 +32,7 @@ export class DashboardMainCard extends Component {
     }
 }
 
-const style1 = StyleSheet.create({
+const style1 = StyleSheet.create({    
     dashboardCardIconBox: {
         width: 60,
         height: 60,
